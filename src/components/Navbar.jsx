@@ -9,7 +9,7 @@ const navItems = [
     {name: "About", href: "#about"},
     {name: "Skills", href: "#skills"},
     {name: "Projects", href: "#projects"},
-    {name: "Contact", href: "#contact"},
+    {name: "Contact", href: "#contacts"},
 
 ]
 function Navbar() {
@@ -42,6 +42,8 @@ function Navbar() {
                 {/* desktop nav */}
                 <div className=" hidden md:flex space-x-8">
                     {navItems.map((item,key)=>(
+                        
+                        
                         <a key={key} href={item.href} className="text-foreground/80 hover:text-primary transition-colors duration-300">
                             {item.name}
                         </a>
