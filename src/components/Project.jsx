@@ -21,7 +21,17 @@ const projects = [
         image: "/projects/Manatyping.png",
         tags: ["React","Node.js","Express.js","JavaScript"],
         githubUrl: "https://github.com/AadityaSinha24/Manatyping"
-    }
+    },
+    {
+        id:3,
+        title: "Blog Website",
+        description: "A responsive blog platform that allows users to create, edit, manage, and explore articles",
+        image: "/projects/ReactBlog.png",
+        tags: ["React","JavaScript"],
+        // demoUrl: "https://hyperframe-app-1.onrender.com",
+        githubUrl: "https://github.com/AadityaSinha24/ReactBlog"
+
+    },
 ]
 
 function Project() {

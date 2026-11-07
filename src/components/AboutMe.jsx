@@ -29,11 +29,11 @@ function AboutMe() {
           </div>
 
           <div className="p-8 rounded-lg shadow-xs ">
-                    <div className="h-68 overflow-hidden border-3 border-black-200">
-                        <img src="/aboutMe/AboutMe.png" alt="" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
+                    <div className="h-90 rounded-2xl overflow-hidden border-3 border-black-200 object-contain">
+                        <img src="/aboutMe/AboutMe.jpg" alt="" className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" />
 
                     </div>
-                </div>
+               </div>
           </div>
         
       </div> 

@@ -6,6 +6,7 @@ import Contact from "../components/Contact"
 import MainSection from "../components/MainSection"
 import Navbar from "../components/Navbar"
 import Project from "../components/Project"
+import Resume from "../components/Resume"
 import Skills from "../components/Skills"
 import ToggleTheme from "../components/ToggleTheme"
 
@@ -23,6 +24,7 @@ function Home() {
           <AboutMe />
           <Skills />
           <Project />
+          <Resume />
           <Contact />
         </main>
     </div>
